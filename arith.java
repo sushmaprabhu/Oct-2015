@@ -34,8 +34,7 @@ class aithmetic {
 				else bigSize = resSize;
 				Integer op1Size = bigSize - String.valueOf(op1).length();
 				Integer op2Size = bigSize - String.valueOf(op2).length()-1;
-				 
-
+			
 				for (int j=0; j<op1Size; j++){
 					str = str+" ";
 				}
@@ -64,6 +63,7 @@ class aithmetic {
 					int gns = String.valueOf(op1).length()>(String.valueOf(op2).length()+1)?String.valueOf(op1).length():(String.valueOf(op2).length()+1);
 					int space = bigSize - gns;
 					str="";
+
 					for (int j=0;j<space; j++){
 						str = str+" ";
 					}
